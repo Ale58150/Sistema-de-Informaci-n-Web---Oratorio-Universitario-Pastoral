@@ -1,0 +1,112 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 2;
+  background-image: url('../imagenes/Christmas.jpg'); /* Imagen de fondo */
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 0.875rem;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+h2 {
+  color: #333; 
+  font-weight: bold;
+}
+
+label {
+  font-weight: 1000;
+}
+
+/* Estilos del contenedor del formulario */
+.contenedor-login {
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 450px;
+  background-color: #fcf8f8;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(21, 185, 68, 0.2);
+  padding: 30px;
+  unicode-bidi: isolate;
+  box-sizing: inherit;
+  display: block;
+  text-align: -webkit-center;
+}
+
+/* Estilos para la clase col-md-3 */
+.contenedor-login .col-md-3 {
+  width: 100%;
+}
+
+.contenedor-login .col-md-3 img {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Estilos de los campos de entrada */
+.contenedor-login .form-control {
+  border-radius: 5px;
+  height: 45px;
+  box-shadow: none;
+  transition: border-color 0.3s;
+}
+
+.contenedor-login .form-control:focus {
+  border-color: #b2cf48;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos del botón de enviar */
+.contenedor-login .btn-primary {
+  width: 100%;
+  height: 45px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: #040000;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.contenedor-login .btn-primary:hover {
+  background-color: #0a0c90;
+}
+
+/* Ajustes para responsivo */
+@media (max-width: 768px) {
+  .contenedor-login {
+    width: 100%;
+    padding: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contenedor-login {
+    width: 100%;
+    padding: 15px;
+  }
+  .contenedor-login .col-md-3 img {
+    height: 100px;
+  }
+}
+
+
+
+
+
+
+
+
+
